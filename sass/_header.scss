@@ -1,6 +1,5 @@
 
 header {
-	color: $text-color;
 	display: flex;
 	flex-wrap: wrap;
 	background-image: url(../img/dianne-in-desert.jpg);
@@ -16,7 +15,7 @@ header {
 	}
 
 	h1, h2 {
-		color: ivory;
+		color: $text-color;
 		margin: 20px;
 	}
 }
