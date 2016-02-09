@@ -7,3 +7,19 @@ h1, h2, h3, h4, figure, figcaption {
 	margin: 0;
 	padding: 0;
 }
+
+nav {
+	ul {
+		display: flex;
+		flex-wrap: wrap; 
+		
+		:first-child {
+				margin-left: auto;
+			}
+
+		li {
+			justify-content: space-around;
+			
+			}
+	}
+}

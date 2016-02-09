@@ -350,3 +350,17 @@ h1, h2, h3, h4, figure, figcaption {
   margin: 0;
   padding: 0;
 }
+
+/* line 12, ../sass/_base.scss */
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 16, ../sass/_base.scss */
+nav ul :first-child {
+  margin-left: auto;
+}
+/* line 20, ../sass/_base.scss */
+nav ul li {
+  justify-content: space-around;
+}
