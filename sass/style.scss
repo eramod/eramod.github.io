@@ -8,9 +8,18 @@
 @import "normalize";
 
 /*********************
+ Variables
+ *********************/
+
+ $primary-color: #7d97ac;
+ $secondary-color: #58395a;
+ $text-color: #b1afaf;
+
+/*********************
  Partials 
  *********************/
 
 @import "base";
 @import "layout";
 @import "header";
+

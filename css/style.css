@@ -336,6 +336,9 @@ th {
 }
 
 /*********************
+ Variables
+ *********************/
+/*********************
  Partials 
  *********************/
 /* line 2, ../sass/_base.scss */
@@ -354,13 +357,11 @@ h1, h2, h3, h4, figure, figcaption {
 /* line 11, ../sass/_base.scss */
 body {
   background-color: #7d97ac;
-  /*#86e3e8*/
 }
 
 /* line 15, ../sass/_base.scss */
 nav {
   background-color: #58395a;
-  /*#32a53a;*/
 }
 /* line 18, ../sass/_base.scss */
 nav ul {
