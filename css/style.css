@@ -358,32 +358,37 @@ h1, h2, h3, h4, figure, figcaption {
 }
 
 /* line 11, ../sass/_base.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 15, ../sass/_base.scss */
 body {
   background-color: #7d97ac;
 }
 
-/* line 15, ../sass/_base.scss */
+/* line 19, ../sass/_base.scss */
 nav {
   background-color: #58395a;
   opacity: 0.8;
   position: fixed;
   width: 100%;
 }
-/* line 21, ../sass/_base.scss */
+/* line 25, ../sass/_base.scss */
 nav ul {
   display: flex;
   flex-wrap: wrap;
 }
-/* line 25, ../sass/_base.scss */
+/* line 29, ../sass/_base.scss */
 nav ul :first-child {
   margin-left: auto;
 }
-/* line 29, ../sass/_base.scss */
+/* line 33, ../sass/_base.scss */
 nav ul li {
   justify-content: space-around;
   padding: 20px;
 }
-/* line 33, ../sass/_base.scss */
+/* line 37, ../sass/_base.scss */
 nav ul li a {
   color: #f1efef;
   font-size: 1.1em;
@@ -391,15 +396,21 @@ nav ul li a {
 }
 
 /* Temporary Styles */
-/* line 45, ../sass/_base.scss */
+/* line 49, ../sass/_base.scss */
 .project-thumbnails {
   margin: 0 auto;
   width: 80%;
 }
-/* line 49, ../sass/_base.scss */
+/* line 53, ../sass/_base.scss */
 .project-thumbnails figure {
   float: left;
   width: 33.33%;
+}
+
+/* line 59, ../sass/_base.scss */
+.logo {
+  height: 100px;
+  width: 100px;
 }
 
 /* line 2, ../sass/_layout.scss */

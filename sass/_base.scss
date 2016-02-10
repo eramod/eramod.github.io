@@ -8,6 +8,10 @@ h1, h2, h3, h4, figure, figcaption {
 	padding: 0;
 }
 
+img {
+	max-width: 100%;
+}
+
 body {
 	background-color: $primary-color;  
 }
@@ -50,5 +54,10 @@ nav {
 		float: left;
 		width: 33.33%;
 	}
+}
+
+.logo {
+	height: 100px;
+	width: 100px;
 }
 
