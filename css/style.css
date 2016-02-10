@@ -391,23 +391,22 @@ nav ul li {
 /* line 37, ../sass/_base.scss */
 nav ul li a {
   color: #f1efef;
-  font-size: 1.1em;
   text-decoration: none;
 }
 
 /* Temporary Styles */
-/* line 49, ../sass/_base.scss */
+/* line 48, ../sass/_base.scss */
 .project-thumbnails {
   margin: 0 auto;
   width: 80%;
 }
-/* line 53, ../sass/_base.scss */
+/* line 52, ../sass/_base.scss */
 .project-thumbnails figure {
   float: left;
   width: 33.33%;
 }
 
-/* line 59, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 .logo {
   height: 100px;
   width: 100px;
@@ -426,25 +425,29 @@ nav ul li a {
 
 /* line 2, ../sass/_header.scss */
 header {
-  display: flex;
-  flex-wrap: wrap;
   background-image: url(../img/dianne-in-desert.jpg);
   background-position: center;
   background-size: cover;
-  justify-content: space-between;
   max-width: 100%;
   height: 630px;
 }
-/* line 12, ../sass/_header.scss */
+/* line 9, ../sass/_header.scss */
 header img {
   border-radius: 50%;
   margin: 20px auto 0 20px;
 }
-/* line 17, ../sass/_header.scss */
+/* line 14, ../sass/_header.scss */
 header h1, header h2 {
   color: #f1efef;
   font-family: 'Exo', sans-serif;
   font-weight: lighter;
   letter-spacing: 0.2em;
   margin: 20px;
+}
+
+/* line 27, ../sass/_header.scss */
+.headline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
