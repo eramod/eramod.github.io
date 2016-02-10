@@ -390,6 +390,29 @@ nav ul li a {
   text-decoration: none;
 }
 
+/* Temporary Styles */
+/* line 45, ../sass/_base.scss */
+.project-thumbnails {
+  margin: 0 auto;
+  width: 80%;
+}
+/* line 49, ../sass/_base.scss */
+.project-thumbnails figure {
+  float: left;
+  width: 33.33%;
+}
+
+/* line 2, ../sass/_layout.scss */
+.project-thumbnails {
+  margin: 0 auto;
+  width: 80%;
+}
+/* line 6, ../sass/_layout.scss */
+.project-thumbnails figure {
+  float: left;
+  width: 33.33%;
+}
+
 /* line 2, ../sass/_header.scss */
 header {
   display: flex;
