@@ -386,7 +386,8 @@ nav ul :first-child {
 /* line 33, ../sass/_base.scss */
 nav ul li {
   justify-content: space-around;
-  padding: 20px;
+  padding: 1.25rem;
+  /* 20px/16px */
 }
 /* line 37, ../sass/_base.scss */
 nav ul li a {
@@ -408,8 +409,10 @@ nav ul li a {
 
 /* line 58, ../sass/_base.scss */
 .logo {
-  height: 100px;
-  width: 100px;
+  height: 6.25rem;
+  /* 100px/16px */
+  width: 6.25rem;
+  /* 100px/16px */
 }
 
 /* line 2, ../sass/_layout.scss */
@@ -429,24 +432,27 @@ header {
   background-position: center;
   background-size: cover;
   max-width: 100%;
-  height: 630px;
+  height: 39.375rem;
+  /* 630px/16px */
 }
 /* line 9, ../sass/_header.scss */
 header img {
   border-radius: 50%;
-  margin: 20px auto 0 20px;
+  margin: 1.25rem auto 0 1.25rem;
+  /* 20px/16px */
 }
 /* line 14, ../sass/_header.scss */
 header h1, header h2 {
   color: #f1efef;
   font-family: 'Exo', sans-serif;
   font-weight: lighter;
-  letter-spacing: 0.2em;
-  margin: 20px;
+  letter-spacing: 0.2rem;
+  margin: 1.25rem;
+  /* 20px/16px */
 }
 /* line 21, ../sass/_header.scss */
 header h1 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   /* 24px/16px */
 }
 
@@ -456,5 +462,6 @@ header h1 {
   flex-wrap: wrap;
   justify-content: space-between;
   position: fixed;
-  top: 3.5em;
+  top: 3.5rem;
+  /* 56px/16px */
 }
