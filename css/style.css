@@ -444,8 +444,13 @@ header h1, header h2 {
   letter-spacing: 0.2em;
   margin: 20px;
 }
+/* line 21, ../sass/_header.scss */
+header h1 {
+  font-size: 1.5em;
+  /* 24px/16px */
+}
 
-/* line 27, ../sass/_header.scss */
+/* line 29, ../sass/_header.scss */
 .headline {
   display: flex;
   flex-wrap: wrap;
