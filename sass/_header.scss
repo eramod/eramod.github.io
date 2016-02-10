@@ -16,6 +16,13 @@ header {
 
 	h1, h2 {
 		color: $text-color;
+		font-family: 'Exo', sans-serif;
+		font-weight: lighter;
+		letter-spacing: 0.2em;
 		margin: 20px;
+	}
+
+	h2 {
+
 	}
 }
