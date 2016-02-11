@@ -17,7 +17,8 @@ body {
 }
 
 nav {
-	background-color: $secondary-color;
+	background: transparent;
+	border-bottom: 2px solid #999;
 	opacity: 0.8;
 	position: fixed;
 	width: 100%;
