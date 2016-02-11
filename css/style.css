@@ -369,7 +369,7 @@ body {
 
 /* line 19, ../sass/_base.scss */
 nav {
-  background-color: #58395a;
+  background: #58395a;
   opacity: 0.8;
   position: fixed;
   width: 100%;
@@ -401,13 +401,8 @@ nav ul li a {
   margin: 0 auto;
   width: 80%;
 }
-/* line 52, ../sass/_base.scss */
-.project-thumbnails figure {
-  float: left;
-  width: 33.33%;
-}
 
-/* line 58, ../sass/_base.scss */
+/* line 54, ../sass/_base.scss */
 .logo {
   height: 6.25rem;
   /* 100px/16px */
@@ -415,20 +410,9 @@ nav ul li a {
   /* 100px/16px */
 }
 
-/* line 2, ../sass/_layout.scss */
-.project-thumbnails {
-  margin: 0 auto;
-  width: 80%;
-}
-/* line 6, ../sass/_layout.scss */
-.project-thumbnails figure {
-  float: left;
-  width: 33.33%;
-}
-
 /* line 2, ../sass/_header.scss */
 header {
-  background-image: url(../img/dianne-in-desert.jpg);
+  background-image: url(../img/dianne-desert-small.jpg);
   background-position: center;
   background-size: cover;
   max-width: 100%;
