@@ -24,15 +24,15 @@ nav {
 
 	ul {
 		display: flex;
-		flex-wrap: wrap; 
+		flex-wrap: wrap;
+		justify-content: space-around; 
 		
-		:first-child {
+		/* :first-child {
 				margin-left: auto;
-			}
+			} */
 
 		li {
-			justify-content: space-around;
-			padding: 1.25rem; /* 20px/16px */
+			padding: 0.75rem; /* 12px/16px */
 
 			a {
 				color: $text-color;
@@ -51,9 +51,4 @@ nav {
 }
 
 
-.logo {
-	height: 6.25rem; /* 100px/16px */
-	margin-right: 2rem;
-	width: 6.25rem; /* 100px/16px */
-}
 
