@@ -441,23 +441,26 @@ header h1 {
   margin-bottom: 0.625rem;
   text-transform: uppercase;
 }
-/* line 26, ../sass/_header.scss */
+/* line 28, ../sass/_header.scss */
 header h2 {
   letter-spacing: 0.19rem;
 }
 
-/* line 31, ../sass/_header.scss */
+/* line 33, ../sass/_header.scss */
+.fixed-header {
+  position: fixed;
+  width: 100%;
+}
+
+/* line 38, ../sass/_header.scss */
 .headline {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: fixed;
-  top: 3.5rem;
-  /* 56px/16px */
+  width: 100%;
 }
-/* line 38, ../sass/_header.scss */
+/* line 44, ../sass/_header.scss */
 .headline .title {
-  margin: 1.5rem 0 0 2.25rem;
-  padding-top: 1.25rem;
+  margin: 1.25rem 0 0 1.25rem;
   /* 20px/16px */
 }
