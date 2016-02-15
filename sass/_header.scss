@@ -1,7 +1,9 @@
 
+@import url(https://fonts.googleapis.com/css?family=Exo:400,400italic,300italic,300,500,500italic,700,700italic);
+
 header {
-	background-image: url(../img/dianne-in-desert.jpg);
-	background-position: right;
+	background-image: url(../img/dianne-in-desert-flipped.jpg);
+	background-position: left;
 	background-size: cover;
 	height: 100vh;
 	width: 100vw;
@@ -28,15 +30,18 @@ header {
 	}
 }
 
+.fixed-header {
+	position: fixed;
+	width: 100%;
+}
+
 .headline {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	position: fixed;
-	top: 3.5rem; /* 56px/16px */
+	width: 100%;
 
 	.title {
-		margin: 1.5rem 0 0 2.25rem;
-		padding-top: 1.25rem; /* 20px/16px */
+		margin: 1.25rem 0 0 1.25rem; /* 20px/16px */
 	}
 }
