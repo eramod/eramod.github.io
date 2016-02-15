@@ -2,7 +2,6 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300italic,400italic,700,700italic,900italic|Dosis|Quicksand|Exo);
 @import url(https://fonts.googleapis.com/css?family=Exo:400,400italic,300italic,300,500,500italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Exo:400,400italic,300italic,300,500,500italic,700,700italic);
 /* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
@@ -339,6 +338,9 @@ th {
 }
 
 /*********************
+ Fonts
+ *********************/
+/*********************
  Variables
  *********************/
 /*b1afaf;*/
@@ -373,38 +375,37 @@ nav {
   background: transparent;
   border-bottom: 2px solid #999;
   opacity: 0.8;
-  /*position: fixed;*/
   width: 100%;
 }
-/* line 26, ../sass/_base.scss */
+/* line 25, ../sass/_base.scss */
 nav ul {
   display: flex;
   flex-wrap: wrap;
 }
-/* line 30, ../sass/_base.scss */
+/* line 29, ../sass/_base.scss */
 nav ul :first-child {
   margin-left: auto;
 }
-/* line 34, ../sass/_base.scss */
+/* line 33, ../sass/_base.scss */
 nav ul li {
   justify-content: space-around;
   padding: 1.25rem;
   /* 20px/16px */
 }
-/* line 38, ../sass/_base.scss */
+/* line 37, ../sass/_base.scss */
 nav ul li a {
   color: #f1efef;
   text-decoration: none;
 }
 
 /* Temporary Styles */
-/* line 49, ../sass/_base.scss */
+/* line 48, ../sass/_base.scss */
 .project-thumbnails {
   margin: 0 auto;
   width: 80%;
 }
 
-/* line 55, ../sass/_base.scss */
+/* line 54, ../sass/_base.scss */
 .logo {
   height: 6.25rem;
   /* 100px/16px */
@@ -422,18 +423,23 @@ header {
   width: 100vw;
 }
 /* line 11, ../sass/_header.scss */
+header .fixed-header {
+  /*position: fixed;*/
+  width: 100%;
+}
+/* line 16, ../sass/_header.scss */
 header img {
   border-radius: 50%;
   margin: 1.25rem auto 0 1.25rem;
   /* 20px/16px */
 }
-/* line 16, ../sass/_header.scss */
+/* line 21, ../sass/_header.scss */
 header h1, header h2 {
   color: #f1efef;
   font-family: 'Exo', sans-serif;
   font-weight: lighter;
 }
-/* line 22, ../sass/_header.scss */
+/* line 27, ../sass/_header.scss */
 header h1 {
   font-size: 1.5rem;
   /* 24px/16px */
@@ -441,25 +447,19 @@ header h1 {
   margin-bottom: 0.625rem;
   text-transform: uppercase;
 }
-/* line 28, ../sass/_header.scss */
+/* line 33, ../sass/_header.scss */
 header h2 {
   letter-spacing: 0.19rem;
 }
 
-/* line 33, ../sass/_header.scss */
-.fixed-header {
-  position: fixed;
-  width: 100%;
-}
-
-/* line 38, ../sass/_header.scss */
+/* line 39, ../sass/_header.scss */
 .headline {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
 }
-/* line 44, ../sass/_header.scss */
+/* line 45, ../sass/_header.scss */
 .headline .title {
   margin: 1.25rem 0 0 1.25rem;
   /* 20px/16px */

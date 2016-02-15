@@ -8,6 +8,11 @@ header {
 	height: 100vh;
 	width: 100vw;
 
+	.fixed-header {
+	/*position: fixed;*/
+	width: 100%;
+	}
+
 	img {
 		border-radius: 50%;
 		margin: 1.25rem auto 0 1.25rem; /* 20px/16px */
@@ -30,10 +35,6 @@ header {
 	}
 }
 
-.fixed-header {
-	position: fixed;
-	width: 100%;
-}
 
 .headline {
 	display: flex;
