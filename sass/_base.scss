@@ -45,9 +45,23 @@ nav {
 
 /* Temporary Styles */
 
-.project-thumbnails {
+.main {
+	width: 100%;
+	background-color: #58395a;
+
+	.project-thumbnails {
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
+
+		.project-1, .project-2, .project-3 {
+			padding: 50px 0;
+		}
+
+		.project-1 {
+			background-color: $secondary-color;
+		}
+
+	}
 }
 
 

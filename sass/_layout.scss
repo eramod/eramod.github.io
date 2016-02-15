@@ -1,1 +1,22 @@
+main {
+	width: 100%;
 
+	.project-thumbnails {
+	margin: 0 auto;
+
+		.project-1, .project-2, .project-3 {
+			height: 100vh;
+			padding: 50px 0;
+		}
+
+		.project-1, .project-3 {
+			background-color: $secondary-color;
+		}
+
+	figure {
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	}
+}
