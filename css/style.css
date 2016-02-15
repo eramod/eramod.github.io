@@ -399,7 +399,43 @@ nav ul li a {
 
 /* Temporary Styles */
 /* line 48, ../sass/_base.scss */
-.project-thumbnails {
+.main {
+  width: 100%;
+  background-color: #58395a;
+}
+/* line 52, ../sass/_base.scss */
+.main .project-thumbnails {
+  margin: 0 auto;
+  width: 100%;
+}
+/* line 56, ../sass/_base.scss */
+.main .project-thumbnails .project-1, .main .project-thumbnails .project-2, .main .project-thumbnails .project-3 {
+  padding: 50px 0;
+}
+/* line 60, ../sass/_base.scss */
+.main .project-thumbnails .project-1 {
+  background-color: #58395a;
+}
+
+/* line 1, ../sass/_layout.scss */
+main {
+  width: 100%;
+}
+/* line 4, ../sass/_layout.scss */
+main .project-thumbnails {
+  margin: 0 auto;
+}
+/* line 7, ../sass/_layout.scss */
+main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
+  height: 100vh;
+  padding: 50px 0;
+}
+/* line 12, ../sass/_layout.scss */
+main .project-thumbnails .project-1, main .project-thumbnails .project-3 {
+  background-color: #58395a;
+}
+/* line 16, ../sass/_layout.scss */
+main .project-thumbnails figure {
   margin: 0 auto;
   width: 80%;
 }
