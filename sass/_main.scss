@@ -2,7 +2,7 @@ main {
 	width: 100%;
 
 	.about {
-		background-color: $tertiary-color;
+		background-color: $secondary-color;
 		padding: 50px 0;
 
 		h3, p {
@@ -12,14 +12,16 @@ main {
 		}
 		
 		h3 {
-			color: $secondary-color;
+			color: $tertiary-color;
 			font-size: 1.25rem;
+			letter-spacing: 0.2rem;
 			text-align: center;
 			text-transform: uppercase;
 		}
 
 		p {
-			color: $secondary-color;
+			color: $tertiary-color;
+			letter-spacing: 0.1rem;
 			line-height: 1.5rem;
 			text-align: justify;
 		}
@@ -29,16 +31,8 @@ main {
 	margin: 0 auto;
 
 		.project-1, .project-2, .project-3 {
-			height: 100vh;
-			padding: 50px 0;
-		}
-
-		.project-1 {
-			background-color: $secondary-color;
-		}
-
-		.project-3 {
 			background-color: $tertiary-color;
+			padding: 4rem 0;
 		}
 
 	figure {

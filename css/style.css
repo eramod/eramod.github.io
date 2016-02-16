@@ -345,7 +345,7 @@ th {
  *********************/
 /* blue */
 /* purple */
-/* off-white */
+/* #f1efef off-white */
 /*********************
  Partials 
  *********************/
@@ -402,7 +402,7 @@ nav ul li {
 }
 /* line 43, ../sass/_base.scss */
 nav ul li a {
-  color: #f1efef;
+  color: #f9ffff;
   text-decoration: none;
 }
 
@@ -441,7 +441,7 @@ header img {
 }
 /* line 26, ../sass/_header.scss */
 header h1, header h2 {
-  color: #f1efef;
+  color: #f9ffff;
   font-family: 'Exo', sans-serif;
   font-weight: lighter;
 }
@@ -477,7 +477,7 @@ main {
 }
 /* line 4, ../sass/_main.scss */
 main .about {
-  background-color: #f1efef;
+  background-color: #58395a;
   padding: 50px 0;
 }
 /* line 8, ../sass/_main.scss */
@@ -488,35 +488,29 @@ main .about h3, main .about p {
 }
 /* line 14, ../sass/_main.scss */
 main .about h3 {
-  color: #58395a;
+  color: #f9ffff;
   font-size: 1.25rem;
+  letter-spacing: 0.2rem;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 21, ../sass/_main.scss */
+/* line 22, ../sass/_main.scss */
 main .about p {
-  color: #58395a;
+  color: #f9ffff;
+  letter-spacing: 0.1rem;
   line-height: 1.5rem;
   text-align: justify;
 }
-/* line 28, ../sass/_main.scss */
+/* line 30, ../sass/_main.scss */
 main .project-thumbnails {
   margin: 0 auto;
 }
-/* line 31, ../sass/_main.scss */
+/* line 33, ../sass/_main.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
-  height: 100vh;
-  padding: 50px 0;
+  background-color: #f9ffff;
+  padding: 4rem 0;
 }
-/* line 36, ../sass/_main.scss */
-main .project-thumbnails .project-1 {
-  background-color: #58395a;
-}
-/* line 40, ../sass/_main.scss */
-main .project-thumbnails .project-3 {
-  background-color: #f1efef;
-}
-/* line 44, ../sass/_main.scss */
+/* line 38, ../sass/_main.scss */
 main .project-thumbnails figure {
   margin: 0 auto;
   width: 80%;
@@ -536,7 +530,7 @@ footer .social, footer p {
 }
 /* line 12, ../sass/_footer.scss */
 footer p {
-  color: #f1efef;
+  color: #f9ffff;
   font-size: 0.9rem;
 }
 /* line 17, ../sass/_footer.scss */
