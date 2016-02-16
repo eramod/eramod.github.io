@@ -406,57 +406,6 @@ nav ul li a {
 	margin: 20vh auto 0;
 	width: 60%;
 } */
-/* line 1, ../sass/_layout.scss */
-main {
-  width: 100%;
-}
-/* line 4, ../sass/_layout.scss */
-main .about {
-  background-color: #f1efef;
-  padding: 50px 0;
-}
-/* line 8, ../sass/_layout.scss */
-main .about h3, main .about p {
-  padding: 1em 0;
-  margin: 0 auto;
-  width: 80%;
-}
-/* line 14, ../sass/_layout.scss */
-main .about h3 {
-  color: #58395a;
-  font-size: 1.25rem;
-  text-align: center;
-  text-transform: uppercase;
-}
-/* line 21, ../sass/_layout.scss */
-main .about p {
-  color: #58395a;
-  line-height: 1.5rem;
-  text-align: justify;
-}
-/* line 28, ../sass/_layout.scss */
-main .project-thumbnails {
-  margin: 0 auto;
-}
-/* line 31, ../sass/_layout.scss */
-main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
-  height: 100vh;
-  padding: 50px 0;
-}
-/* line 36, ../sass/_layout.scss */
-main .project-thumbnails .project-1 {
-  background-color: #58395a;
-}
-/* line 40, ../sass/_layout.scss */
-main .project-thumbnails .project-3 {
-  background-color: #f1efef;
-}
-/* line 44, ../sass/_layout.scss */
-main .project-thumbnails figure {
-  margin: 0 auto;
-  width: 80%;
-}
-
 /* line 4, ../sass/_header.scss */
 header {
   background-image: url(../img/dianne-in-desert-flipped.jpg);
@@ -514,4 +463,55 @@ header h2 {
 .headline .title {
   margin: 1.75rem 0 0 1.5rem;
   /* 28px/16px */
+}
+
+/* line 1, ../sass/_main.scss */
+main {
+  width: 100%;
+}
+/* line 4, ../sass/_main.scss */
+main .about {
+  background-color: #f1efef;
+  padding: 50px 0;
+}
+/* line 8, ../sass/_main.scss */
+main .about h3, main .about p {
+  padding: 1em 0;
+  margin: 0 auto;
+  width: 80%;
+}
+/* line 14, ../sass/_main.scss */
+main .about h3 {
+  color: #58395a;
+  font-size: 1.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 21, ../sass/_main.scss */
+main .about p {
+  color: #58395a;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+/* line 28, ../sass/_main.scss */
+main .project-thumbnails {
+  margin: 0 auto;
+}
+/* line 31, ../sass/_main.scss */
+main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
+  height: 100vh;
+  padding: 50px 0;
+}
+/* line 36, ../sass/_main.scss */
+main .project-thumbnails .project-1 {
+  background-color: #58395a;
+}
+/* line 40, ../sass/_main.scss */
+main .project-thumbnails .project-3 {
+  background-color: #f1efef;
+}
+/* line 44, ../sass/_main.scss */
+main .project-thumbnails figure {
+  margin: 0 auto;
+  width: 80%;
 }
