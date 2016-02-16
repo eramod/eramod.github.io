@@ -419,14 +419,13 @@ header {
   background-position: left;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
 }
-/* line 11, ../sass/_header.scss */
+/* line 10, ../sass/_header.scss */
 header .fixed-header {
   /*position: fixed;*/
   width: 100%;
 }
-/* line 16, ../sass/_header.scss */
+/* line 15, ../sass/_header.scss */
 header .logo {
   height: 5rem;
   /* 80px/16px */
@@ -434,19 +433,19 @@ header .logo {
   /* 80px/16px */
   margin: -10px 27px 0 0;
 }
-/* line 22, ../sass/_header.scss */
+/* line 21, ../sass/_header.scss */
 header img {
   border-radius: 50%;
   margin: 1.25rem auto 0 1.25rem;
   /* 20px/16px */
 }
-/* line 27, ../sass/_header.scss */
+/* line 26, ../sass/_header.scss */
 header h1, header h2 {
   color: #f1efef;
   font-family: 'Exo', sans-serif;
   font-weight: lighter;
 }
-/* line 33, ../sass/_header.scss */
+/* line 32, ../sass/_header.scss */
 header h1 {
   font-size: 1.25rem;
   /* 20px/16px */
@@ -454,19 +453,19 @@ header h1 {
   margin-bottom: 0.625rem;
   text-transform: uppercase;
 }
-/* line 39, ../sass/_header.scss */
+/* line 38, ../sass/_header.scss */
 header h2 {
   font-size: 0.85rem;
   letter-spacing: 0.19rem;
 }
 
-/* line 46, ../sass/_header.scss */
+/* line 45, ../sass/_header.scss */
 .headline {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* line 51, ../sass/_header.scss */
+/* line 50, ../sass/_header.scss */
 .headline .title {
   margin: 1.75rem 0 0 1.5rem;
   /* 28px/16px */
