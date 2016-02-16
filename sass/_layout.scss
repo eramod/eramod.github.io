@@ -33,8 +33,12 @@ main {
 			padding: 50px 0;
 		}
 
-		.project-1, .project-3 {
+		.project-1 {
 			background-color: $secondary-color;
+		}
+
+		.project-3 {
+			background-color: $tertiary-color;
 		}
 
 	figure {

@@ -343,7 +343,9 @@ th {
 /*********************
  Variables
  *********************/
-/*b1afaf;*/
+/* purple */
+/* blue */
+/* off-white */
 /*********************
  Partials 
  *********************/
@@ -442,10 +444,14 @@ main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .
   padding: 50px 0;
 }
 /* line 36, ../sass/_layout.scss */
-main .project-thumbnails .project-1, main .project-thumbnails .project-3 {
+main .project-thumbnails .project-1 {
   background-color: #58395a;
 }
 /* line 40, ../sass/_layout.scss */
+main .project-thumbnails .project-3 {
+  background-color: #f1efef;
+}
+/* line 44, ../sass/_layout.scss */
 main .project-thumbnails figure {
   margin: 0 auto;
   width: 80%;
