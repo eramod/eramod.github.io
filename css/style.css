@@ -410,20 +410,20 @@ nav ul li a {
 main {
   width: 100%;
 }
-/* line 4, ../sass/_layout.scss */
+/* line 6, ../sass/_layout.scss */
 main .project-thumbnails {
   margin: 0 auto;
 }
-/* line 7, ../sass/_layout.scss */
+/* line 9, ../sass/_layout.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
   height: 100vh;
   padding: 50px 0;
 }
-/* line 12, ../sass/_layout.scss */
+/* line 14, ../sass/_layout.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-3 {
   background-color: #58395a;
 }
-/* line 16, ../sass/_layout.scss */
+/* line 18, ../sass/_layout.scss */
 main .project-thumbnails figure {
   margin: 0 auto;
   width: 80%;
