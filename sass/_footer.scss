@@ -1,0 +1,23 @@
+footer {
+	background-color: $primary-color;
+	padding: 2rem;
+
+	.social, p {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 90%;
+	}
+
+	p {
+		color: $tertiary-color;
+		font-size: 0.9rem;
+	} 
+
+	li {
+		display: inline-block;
+		margin: 0 0.5rem;
+		width: 4.5rem;
+	}
+
+}
