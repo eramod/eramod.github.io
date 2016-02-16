@@ -3,6 +3,12 @@
 	@include box-sizing(border-box);
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 h1, h2, h3, h4, figure, figcaption {
 	margin: 0;
 	padding: 0;
