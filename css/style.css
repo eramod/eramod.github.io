@@ -399,22 +399,11 @@ nav ul li a {
 
 /* Temporary Styles */
 /* line 48, ../sass/_base.scss */
-.main {
-  width: 100%;
-  background-color: #58395a;
-}
-/* line 52, ../sass/_base.scss */
-.main .project-thumbnails {
-  margin: 0 auto;
-  width: 100%;
-}
-/* line 56, ../sass/_base.scss */
-.main .project-thumbnails .project-1, .main .project-thumbnails .project-2, .main .project-thumbnails .project-3 {
-  padding: 50px 0;
-}
-/* line 60, ../sass/_base.scss */
-.main .project-thumbnails .project-1 {
-  background-color: #58395a;
+.objective {
+  color: #58395a;
+  font-size: 2rem;
+  margin: 20vh auto 0;
+  width: 60%;
 }
 
 /* line 1, ../sass/_layout.scss */
