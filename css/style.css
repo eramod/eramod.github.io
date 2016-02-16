@@ -521,3 +521,27 @@ main .project-thumbnails figure {
   margin: 0 auto;
   width: 80%;
 }
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  background-color: #7d97ac;
+  padding: 2rem;
+}
+/* line 5, ../sass/_footer.scss */
+footer .social, footer p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+/* line 12, ../sass/_footer.scss */
+footer p {
+  color: #f1efef;
+  font-size: 0.9rem;
+}
+/* line 17, ../sass/_footer.scss */
+footer li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  width: 4.5rem;
+}
