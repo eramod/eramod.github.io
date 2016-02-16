@@ -499,7 +499,7 @@ main .about p {
   color: #f9ffff;
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
-  text-align: justify;
+  text-align: left;
 }
 /* line 30, ../sass/_main.scss */
 main .project-thumbnails {
