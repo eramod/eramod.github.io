@@ -40,9 +40,9 @@ main {
 		margin: 0 auto;
 		padding-bottom: 4rem;
 
-		@media screen and (min-width: $break-medium)  {
-			@include display-flex;
-		}
+			@media screen and (min-width: $break-medium)  {
+				@include display-flex;
+			}
 
 
 		.project-1, .project-2, .project-3 {
@@ -53,8 +53,6 @@ main {
 				@include display-flex;
 				width: 33.33%;
 			}
-
-
 		}
 
 		figure {
@@ -70,6 +68,5 @@ main {
 			margin: 1rem 0;
 			text-align: center;
 		}
-
-	}
+	}	
 }

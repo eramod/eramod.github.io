@@ -11,6 +11,46 @@ header {
 	width: 100%;
 	}
 
+	.headline {
+		@include display-flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		.title {
+			margin: 1.75rem 0 0 1.5rem; /* 28px/16px */
+		}
+	}
+
+	nav {
+		background: transparent;
+		border-bottom: 2px solid #999;
+		font-weight: 300;
+		letter-spacing: 0.1rem;
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around; 
+			
+			@media screen and (min-width: $break-small) {
+
+				:first-child {
+						margin-left: auto;
+				} 
+			}
+
+			li {
+				padding: 0.75rem; /* 12px/16px */
+
+				a {
+					color: $tertiary-color;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+
 	.logo {
 	height: 5rem; /* 80px/16px */
 	width: 5rem; /* 80px/16px */
@@ -54,12 +94,3 @@ header {
 }
 
 
-.headline {
-	@include display-flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-
-	.title {
-		margin: 1.75rem 0 0 1.5rem; /* 28px/16px */
-	}
-}
