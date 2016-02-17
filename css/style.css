@@ -508,17 +508,22 @@ main .project-thumbnails {
 /* line 33, ../sass/_main.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
   background-color: #f9ffff;
-  padding: 4rem 0;
+  padding: 4rem 0 0;
 }
 /* line 38, ../sass/_main.scss */
+main .project-thumbnails .project-3 {
+  padding-bottom: 4rem;
+}
+/* line 42, ../sass/_main.scss */
 main .project-thumbnails figure {
   border: 1px solid #ccc;
   border-radius: 0.5rem;
+  color: #58395a;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem 2rem;
   width: 85%;
 }
-/* line 46, ../sass/_main.scss */
+/* line 51, ../sass/_main.scss */
 main .project-thumbnails figcaption {
   margin: 1rem 0;
   text-align: center;
