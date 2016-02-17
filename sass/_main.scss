@@ -93,4 +93,14 @@ main {
 			text-align: center;
 		}
 	}	
+
+	.about-portfolio {
+		a {
+			color: $primary-color;
+
+			&:hover{
+				color: $tertiary-color;
+			} 
+		}
+	}
 }

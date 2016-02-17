@@ -613,6 +613,14 @@ main .project-thumbnails figcaption {
   margin: 1rem 0;
   text-align: center;
 }
+/* line 98, ../sass/_main.scss */
+main .about-portfolio a {
+  color: #7d97ac;
+}
+/* line 101, ../sass/_main.scss */
+main .about-portfolio a:hover {
+  color: #f9ffff;
+}
 
 /* line 1, ../sass/_footer.scss */
 footer {
