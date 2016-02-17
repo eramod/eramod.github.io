@@ -381,7 +381,7 @@ img {
 
 /* line 21, ../sass/_base.scss */
 body {
-  background-color: #7d97ac;
+  background-color: #f9ffff;
 }
 
 /* line 25, ../sass/_base.scss */
@@ -520,12 +520,27 @@ main .project-thumbnails {
   margin: 0 auto;
   padding-bottom: 4rem;
 }
-/* line 38, ../sass/_main.scss */
+@media screen and (min-width: 62rem) {
+  /* line 34, ../sass/_main.scss */
+  main .project-thumbnails {
+    display: -webkit-flex;
+    display: flex;
+  }
+}
+/* line 43, ../sass/_main.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
   background-color: #f9ffff;
   padding: 4rem 0 0;
 }
-/* line 43, ../sass/_main.scss */
+@media screen and (min-width: 62rem) {
+  /* line 43, ../sass/_main.scss */
+  main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
+    display: -webkit-flex;
+    display: flex;
+    width: 33.33%;
+  }
+}
+/* line 55, ../sass/_main.scss */
 main .project-thumbnails figure {
   border: 1px solid #ccc;
   border-radius: 0.5rem;
@@ -534,7 +549,7 @@ main .project-thumbnails figure {
   padding: 1rem 1rem 2rem;
   width: 85%;
 }
-/* line 52, ../sass/_main.scss */
+/* line 64, ../sass/_main.scss */
 main .project-thumbnails figcaption {
   margin: 1rem 0;
   text-align: center;
