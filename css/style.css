@@ -390,31 +390,37 @@ p {
 }
 
 /* line 30, ../sass/_base.scss */
+h3 {
+  font-weight: 300;
+}
+
+/* line 33, ../sass/_base.scss */
 nav {
   background: transparent;
   border-bottom: 2px solid #999;
+  font-weight: 300;
   letter-spacing: 0.1rem;
   /*opacity: 0.8;*/
   width: 100%;
 }
-/* line 37, ../sass/_base.scss */
+/* line 41, ../sass/_base.scss */
 nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 @media screen and (min-width: 30rem) {
-  /* line 44, ../sass/_base.scss */
+  /* line 48, ../sass/_base.scss */
   nav ul :first-child {
     margin-left: auto;
   }
 }
-/* line 49, ../sass/_base.scss */
+/* line 53, ../sass/_base.scss */
 nav ul li {
   padding: 0.75rem;
   /* 12px/16px */
 }
-/* line 52, ../sass/_base.scss */
+/* line 56, ../sass/_base.scss */
 nav ul li a {
   color: #f9ffff;
   text-decoration: none;
