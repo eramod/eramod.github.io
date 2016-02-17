@@ -55,7 +55,7 @@ header {
 
 
 .headline {
-	display: flex;
+	@include display-flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 

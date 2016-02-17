@@ -393,27 +393,28 @@ p {
 nav {
   background: transparent;
   border-bottom: 2px solid #999;
-  opacity: 0.8;
+  letter-spacing: 0.1rem;
+  /*opacity: 0.8;*/
   width: 100%;
 }
-/* line 36, ../sass/_base.scss */
+/* line 37, ../sass/_base.scss */
 nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 @media screen and (min-width: 30rem) {
-  /* line 43, ../sass/_base.scss */
+  /* line 44, ../sass/_base.scss */
   nav ul :first-child {
     margin-left: auto;
   }
 }
-/* line 48, ../sass/_base.scss */
+/* line 49, ../sass/_base.scss */
 nav ul li {
   padding: 0.75rem;
   /* 12px/16px */
 }
-/* line 51, ../sass/_base.scss */
+/* line 52, ../sass/_base.scss */
 nav ul li a {
   color: #f9ffff;
   text-decoration: none;
@@ -493,6 +494,7 @@ header h2 {
 
 /* line 57, ../sass/_header.scss */
 .headline {
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
