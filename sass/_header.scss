@@ -16,6 +16,11 @@ header {
 	height: 5rem; /* 80px/16px */
 	width: 5rem; /* 80px/16px */
 	margin: -10px 27px 0 0;
+
+		@media screen and (min-width: $break-medium) {
+			height: 6.25rem;
+			width: 6.25rem;
+		}
 	}
 
 	img {
@@ -34,10 +39,18 @@ header {
 		letter-spacing: 0.25rem;
 		margin-bottom: 0.625rem;
 		text-transform: uppercase;
+
+		@media screen and (min-width: $break-medium) {
+			font-size: 2rem;
+		}
 	}
 	h2 {
 		font-size: 0.85rem;
 		letter-spacing: 0.19rem;
+
+		@media screen and (min-width: $break-medium) {
+			font-size: 1.4rem;
+		}
 	}
 }
 
