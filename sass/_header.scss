@@ -28,7 +28,7 @@ header {
 		letter-spacing: 0.1rem;
 
 		ul {
-			display: flex;
+			@include display-flex;
 			flex-wrap: wrap;
 			justify-content: space-around; 
 			

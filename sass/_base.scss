@@ -29,37 +29,7 @@ p {
 
 h3 {
 	font-weight: 300;
-}
-nav {
-	background: transparent;
-	border-bottom: 2px solid #999;
-	font-weight: 300;
-	letter-spacing: 0.1rem;
-	/*opacity: 0.8;*/
-	width: 100%;
-
-	ul {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around; 
-		
-		@media screen and (min-width: $break-small) {
-
-			:first-child {
-					margin-left: auto;
-			} 
-		}
-
-		li {
-			padding: 0.75rem; /* 12px/16px */
-
-			a {
-				color: $tertiary-color;
-				text-decoration: none;
-			}
-		}
-
-	}
+	font-family: 'Exo', sans-serif;
 }
 
 /* Temporary Styles */

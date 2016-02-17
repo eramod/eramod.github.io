@@ -1,17 +1,34 @@
 main {
 	width: 100%;
 
+	h3 {
+		font-size: 1.25rem;
+		letter-spacing: 0.2rem;
+		text-align: center;
+		text-transform: uppercase;
+
+		@media screen and (min-width: $break-medium) {
+			font-size: 1.75rem;
+		}
+	}
+
+	h3, p {
+			padding: 1em 0;
+			margin: 0 auto;
+			width: 85%;
+	}
+
+
 	.about, .about-portfolio {
 		background-color: $secondary-color;
 		padding: 50px 0;
 
 		h3, p {
-			padding: 1em 0;
-			margin: 0 auto;
-			width: 85%;
+			color: $tertiary-color;
 		}
+
 		
-		h3 {
+		/*h3 {
 			color: $tertiary-color;
 			font-size: 1.25rem;
 			letter-spacing: 0.2rem;
@@ -20,9 +37,7 @@ main {
 
 			@media screen and (min-width: $break-medium) {
 				font-size: 1.75rem;
-			}
-
-		}
+			}*/
 
 		p {
 			color: $tertiary-color;
@@ -36,14 +51,23 @@ main {
 		}
 	}
 
+	#projects {
+		padding: 3.125rem 0;
+
+		h3 {
+			color: $secondary-color;
+			padding-bottom: 0;
+		}
+	}
+
 	.project-thumbnails {
 		margin: 0 auto;
 		padding-bottom: 4rem;
 
 			@media screen and (min-width: $break-medium)  {
 				@include display-flex;
+				padding-top: 0;
 			}
-
 
 		.project-1, .project-2, .project-3 {
 			background-color: $tertiary-color;
