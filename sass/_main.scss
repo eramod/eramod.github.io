@@ -33,14 +33,11 @@ main {
 
 	.project-thumbnails {
 		margin: 0 auto;
+		padding-bottom: 4rem;
 
 		.project-1, .project-2, .project-3 {
 			background-color: $tertiary-color;
 			padding: 4rem 0 0;
-		}
-
-		.project-3 {
-			padding-bottom: 4rem;
 		}
 
 		figure {
