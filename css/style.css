@@ -613,11 +613,23 @@ main .project-thumbnails figcaption {
   margin: 1rem 0;
   text-align: center;
 }
-/* line 98, ../sass/_main.scss */
+/* line 95, ../sass/_main.scss */
+main .project-thumbnails figcaption > a {
+  color: #7d97ac;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+}
+/* line 102, ../sass/_main.scss */
+main .project-thumbnails figcaption > a:hover {
+  color: #58395a;
+}
+/* line 110, ../sass/_main.scss */
 main .about-portfolio a {
   color: #7d97ac;
 }
-/* line 101, ../sass/_main.scss */
+/* line 113, ../sass/_main.scss */
 main .about-portfolio a:hover {
   color: #f9ffff;
 }
