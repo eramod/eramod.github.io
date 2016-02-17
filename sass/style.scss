@@ -19,9 +19,16 @@
  Variables
  *********************/
 
- $primary-color: #7d97ac; /* blue */
- $secondary-color: #58395a; /* purple */
- $tertiary-color: #f9ffff; /* #f1efef off-white */
+	/* Colors */
+
+ 	$primary-color: #7d97ac; /* blue */
+ 	$secondary-color: #58395a; /* purple */
+ 	$tertiary-color: #f9ffff; /* #f1efef off-white */
+
+ 	/* Media Query Breakpoints */
+ 	$break-small: 30rem; /* 480px/16px */
+ 	$break-medium: 62rem; /* 992px/16px */
+ 	$break-large: 75rem; /* 1200px/16px */
 
 
 /*********************
