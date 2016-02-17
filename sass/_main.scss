@@ -17,6 +17,11 @@ main {
 			letter-spacing: 0.2rem;
 			text-align: center;
 			text-transform: uppercase;
+
+			@media screen and (min-width: $break-medium) {
+				font-size: 1.75rem;
+			}
+
 		}
 
 		p {

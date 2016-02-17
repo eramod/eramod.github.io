@@ -526,7 +526,13 @@ main .about h3, main .about-portfolio h3 {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 22, ../sass/_main.scss */
+@media screen and (min-width: 62rem) {
+  /* line 14, ../sass/_main.scss */
+  main .about h3, main .about-portfolio h3 {
+    font-size: 1.75rem;
+  }
+}
+/* line 27, ../sass/_main.scss */
 main .about p, main .about-portfolio p {
   color: #f9ffff;
   letter-spacing: 0.1rem;
@@ -534,37 +540,37 @@ main .about p, main .about-portfolio p {
   text-align: left;
 }
 @media screen and (min-width: 62rem) {
-  /* line 22, ../sass/_main.scss */
+  /* line 27, ../sass/_main.scss */
   main .about p, main .about-portfolio p {
     width: 50%;
   }
 }
-/* line 34, ../sass/_main.scss */
+/* line 39, ../sass/_main.scss */
 main .project-thumbnails {
   margin: 0 auto;
   padding-bottom: 4rem;
 }
 @media screen and (min-width: 62rem) {
-  /* line 34, ../sass/_main.scss */
+  /* line 39, ../sass/_main.scss */
   main .project-thumbnails {
     display: -webkit-flex;
     display: flex;
   }
 }
-/* line 43, ../sass/_main.scss */
+/* line 48, ../sass/_main.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
   background-color: #f9ffff;
   padding: 4rem 0 0;
 }
 @media screen and (min-width: 62rem) {
-  /* line 43, ../sass/_main.scss */
+  /* line 48, ../sass/_main.scss */
   main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
     display: -webkit-flex;
     display: flex;
     width: 33.33%;
   }
 }
-/* line 55, ../sass/_main.scss */
+/* line 60, ../sass/_main.scss */
 main .project-thumbnails figure {
   border: 1px solid #ccc;
   border-radius: 0.5rem;
@@ -573,7 +579,7 @@ main .project-thumbnails figure {
   padding: 1rem 1rem 2rem;
   width: 85%;
 }
-/* line 64, ../sass/_main.scss */
+/* line 69, ../sass/_main.scss */
 main .project-thumbnails figcaption {
   margin: 1rem 0;
   text-align: center;
