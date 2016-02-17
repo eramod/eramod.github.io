@@ -24,6 +24,10 @@ main {
 			letter-spacing: 0.1rem;
 			line-height: 1.5rem;
 			text-align: left;
+
+			@media screen and (min-width: $break-medium) {
+				width: 50%;
+			}
 		}
 	}
 

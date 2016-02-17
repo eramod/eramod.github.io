@@ -509,20 +509,26 @@ main .about p, main .about-portfolio p {
   line-height: 1.5rem;
   text-align: left;
 }
-/* line 30, ../sass/_main.scss */
+@media screen and (min-width: 62rem) {
+  /* line 22, ../sass/_main.scss */
+  main .about p, main .about-portfolio p {
+    width: 50%;
+  }
+}
+/* line 34, ../sass/_main.scss */
 main .project-thumbnails {
   margin: 0 auto;
 }
-/* line 33, ../sass/_main.scss */
+/* line 37, ../sass/_main.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
   background-color: #f9ffff;
   padding: 4rem 0 0;
 }
-/* line 38, ../sass/_main.scss */
+/* line 42, ../sass/_main.scss */
 main .project-thumbnails .project-3 {
   padding-bottom: 4rem;
 }
-/* line 42, ../sass/_main.scss */
+/* line 46, ../sass/_main.scss */
 main .project-thumbnails figure {
   border: 1px solid #ccc;
   border-radius: 0.5rem;
@@ -531,7 +537,7 @@ main .project-thumbnails figure {
   padding: 1rem 1rem 2rem;
   width: 85%;
 }
-/* line 51, ../sass/_main.scss */
+/* line 55, ../sass/_main.scss */
 main .project-thumbnails figcaption {
   margin: 1rem 0;
   text-align: center;
