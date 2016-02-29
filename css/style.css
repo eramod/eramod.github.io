@@ -410,30 +410,25 @@ header {
   height: 100vh;
 }
 /* line 9, ../sass/_header.scss */
-header .fixed-header {
-  /*position: fixed;*/
-  width: 100%;
-}
-/* line 14, ../sass/_header.scss */
 header .headline {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* line 19, ../sass/_header.scss */
+/* line 14, ../sass/_header.scss */
 header .headline .title {
   margin: 1.75rem 0 0 1.5rem;
   /* 28px/16px */
 }
-/* line 24, ../sass/_header.scss */
+/* line 19, ../sass/_header.scss */
 header nav {
   background: transparent;
   border-bottom: 2px solid #999;
   font-weight: 300;
   letter-spacing: 0.1rem;
 }
-/* line 30, ../sass/_header.scss */
+/* line 25, ../sass/_header.scss */
 header nav ul {
   display: -webkit-flex;
   display: flex;
@@ -441,49 +436,28 @@ header nav ul {
   justify-content: space-around;
 }
 @media screen and (min-width: 30rem) {
-  /* line 37, ../sass/_header.scss */
+  /* line 32, ../sass/_header.scss */
   header nav ul :first-child {
     margin-left: auto;
   }
 }
-/* line 42, ../sass/_header.scss */
+/* line 37, ../sass/_header.scss */
 header nav ul li {
   padding: 0.75rem;
   /* 12px/16px */
 }
-/* line 45, ../sass/_header.scss */
+/* line 40, ../sass/_header.scss */
 header nav ul li a {
   color: #f9ffff;
   text-decoration: none;
 }
-/* line 54, ../sass/_header.scss */
-header .logo {
-  height: 5rem;
-  /* 80px/16px */
-  width: 5rem;
-  /* 80px/16px */
-  margin: -10px 27px 0 0;
-}
-@media screen and (min-width: 62rem) {
-  /* line 54, ../sass/_header.scss */
-  header .logo {
-    height: 6.25rem;
-    width: 6.25rem;
-  }
-}
-/* line 65, ../sass/_header.scss */
-header img {
-  border-radius: 50%;
-  margin: 1.25rem auto 0 1.25rem;
-  /* 20px/16px */
-}
-/* line 70, ../sass/_header.scss */
+/* line 49, ../sass/_header.scss */
 header h1, header h2 {
   color: #f9ffff;
   font-family: 'Exo', sans-serif;
   font-weight: lighter;
 }
-/* line 76, ../sass/_header.scss */
+/* line 55, ../sass/_header.scss */
 header h1 {
   font-size: 1.25rem;
   /* 20px/16px */
@@ -492,18 +466,18 @@ header h1 {
   text-transform: uppercase;
 }
 @media screen and (min-width: 62rem) {
-  /* line 76, ../sass/_header.scss */
+  /* line 55, ../sass/_header.scss */
   header h1 {
     font-size: 2rem;
   }
 }
-/* line 86, ../sass/_header.scss */
+/* line 65, ../sass/_header.scss */
 header h2 {
   font-size: 0.85rem;
   letter-spacing: 0.19rem;
 }
 @media screen and (min-width: 62rem) {
-  /* line 86, ../sass/_header.scss */
+  /* line 65, ../sass/_header.scss */
   header h2 {
     font-size: 1.4rem;
   }
@@ -527,12 +501,34 @@ main h3 {
   }
 }
 /* line 15, ../sass/_main.scss */
+main .portrait {
+  float: right;
+  height: 5rem;
+  /* 80px/16px */
+  width: 5rem;
+  /* 80px/16px */
+  margin: -10px 27px 0 0;
+}
+@media screen and (min-width: 62rem) {
+  /* line 15, ../sass/_main.scss */
+  main .portrait {
+    height: 6.25rem;
+    width: 6.25rem;
+  }
+}
+/* line 26, ../sass/_main.scss */
+main .portrait img {
+  border-radius: 50%;
+  margin: 1.25rem auto 0 1.25rem;
+  /* 20px/16px */
+}
+/* line 32, ../sass/_main.scss */
 main h3, main p {
   padding: 1em 0;
   margin: 0 auto;
   width: 85%;
 }
-/* line 22, ../sass/_main.scss */
+/* line 39, ../sass/_main.scss */
 main .about, main .about-portfolio {
   background-color: #58395a;
   padding: 50px 0;
@@ -547,11 +543,11 @@ main .about, main .about-portfolio {
   				font-size: 1.75rem;
   			}*/
 }
-/* line 26, ../sass/_main.scss */
+/* line 43, ../sass/_main.scss */
 main .about h3, main .about p, main .about-portfolio h3, main .about-portfolio p {
   color: #f9ffff;
 }
-/* line 42, ../sass/_main.scss */
+/* line 59, ../sass/_main.scss */
 main .about p, main .about-portfolio p {
   color: #f9ffff;
   letter-spacing: 0.1rem;
@@ -559,47 +555,47 @@ main .about p, main .about-portfolio p {
   text-align: left;
 }
 @media screen and (min-width: 62rem) {
-  /* line 42, ../sass/_main.scss */
+  /* line 59, ../sass/_main.scss */
   main .about p, main .about-portfolio p {
     width: 50%;
   }
 }
-/* line 54, ../sass/_main.scss */
+/* line 71, ../sass/_main.scss */
 main #projects {
   padding: 3.125rem 0;
 }
-/* line 57, ../sass/_main.scss */
+/* line 74, ../sass/_main.scss */
 main #projects h3 {
   color: #58395a;
   padding-bottom: 0;
 }
-/* line 63, ../sass/_main.scss */
+/* line 80, ../sass/_main.scss */
 main .project-thumbnails {
   margin: 0 auto;
   padding-bottom: 4rem;
 }
 @media screen and (min-width: 62rem) {
-  /* line 63, ../sass/_main.scss */
+  /* line 80, ../sass/_main.scss */
   main .project-thumbnails {
     display: -webkit-flex;
     display: flex;
     padding-top: 0;
   }
 }
-/* line 72, ../sass/_main.scss */
+/* line 89, ../sass/_main.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
   background-color: #f9ffff;
   padding: 4rem 0 0;
 }
 @media screen and (min-width: 62rem) {
-  /* line 72, ../sass/_main.scss */
+  /* line 89, ../sass/_main.scss */
   main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
     display: -webkit-flex;
     display: flex;
     width: 33.33%;
   }
 }
-/* line 82, ../sass/_main.scss */
+/* line 99, ../sass/_main.scss */
 main .project-thumbnails figure {
   border: 1px solid #ccc;
   border-radius: 0.5rem;
@@ -608,12 +604,12 @@ main .project-thumbnails figure {
   padding: 1rem 1rem 2rem;
   width: 85%;
 }
-/* line 91, ../sass/_main.scss */
+/* line 108, ../sass/_main.scss */
 main .project-thumbnails figcaption {
   margin: 1rem 0;
   text-align: center;
 }
-/* line 95, ../sass/_main.scss */
+/* line 112, ../sass/_main.scss */
 main .project-thumbnails figcaption > a {
   color: #7d97ac;
   display: block;
@@ -621,15 +617,15 @@ main .project-thumbnails figcaption > a {
   padding: 1rem;
   width: 90%;
 }
-/* line 102, ../sass/_main.scss */
+/* line 119, ../sass/_main.scss */
 main .project-thumbnails figcaption > a:hover {
   color: #58395a;
 }
-/* line 110, ../sass/_main.scss */
+/* line 127, ../sass/_main.scss */
 main .about-portfolio a {
   color: #7d97ac;
 }
-/* line 113, ../sass/_main.scss */
+/* line 130, ../sass/_main.scss */
 main .about-portfolio a:hover {
   color: #f9ffff;
 }
