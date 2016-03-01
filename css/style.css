@@ -69,7 +69,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* @import "normalize"; */
 /*********************
  Fonts
  *********************/
@@ -224,10 +223,10 @@ main {
 }
 /* line 4, ../sass/_main.scss */
 main h3 {
+  font-family: 'Courgette', cursive;
   font-size: 1.25rem;
   letter-spacing: 0.2rem;
   text-align: center;
-  text-transform: uppercase;
 }
 @media screen and (min-width: 62rem) {
   /* line 4, ../sass/_main.scss */
@@ -244,6 +243,7 @@ main header {
 }
 /* line 23, ../sass/_main.scss */
 main .portrait {
+  display: none;
   float: right;
   height: 5rem;
   /* 80px/16px */
@@ -259,17 +259,17 @@ main .portrait {
     width: 6.25rem;
   }
 }
-/* line 34, ../sass/_main.scss */
+/* line 35, ../sass/_main.scss */
 main .portrait img {
   border-radius: 50%;
 }
-/* line 39, ../sass/_main.scss */
+/* line 40, ../sass/_main.scss */
 main p {
   padding: 1em 0;
   margin: 0 auto;
   width: 85%;
 }
-/* line 46, ../sass/_main.scss */
+/* line 47, ../sass/_main.scss */
 main .about, main .about-portfolio {
   background-color: #58395a;
   padding: 50px 0;
@@ -284,11 +284,11 @@ main .about, main .about-portfolio {
   				font-size: 1.75rem;
   			}*/
 }
-/* line 50, ../sass/_main.scss */
+/* line 51, ../sass/_main.scss */
 main .about h3, main .about p, main .about-portfolio h3, main .about-portfolio p {
   color: #f9ffff;
 }
-/* line 66, ../sass/_main.scss */
+/* line 67, ../sass/_main.scss */
 main .about p, main .about-portfolio p {
   color: #f9ffff;
   letter-spacing: 0.1rem;
@@ -296,47 +296,47 @@ main .about p, main .about-portfolio p {
   text-align: left;
 }
 @media screen and (min-width: 62rem) {
-  /* line 66, ../sass/_main.scss */
+  /* line 67, ../sass/_main.scss */
   main .about p, main .about-portfolio p {
     width: 50%;
   }
 }
-/* line 78, ../sass/_main.scss */
+/* line 79, ../sass/_main.scss */
 main #projects {
   padding: 3.125rem 0;
 }
-/* line 81, ../sass/_main.scss */
+/* line 82, ../sass/_main.scss */
 main #projects h3 {
   color: #58395a;
   padding-bottom: 0;
 }
-/* line 87, ../sass/_main.scss */
+/* line 88, ../sass/_main.scss */
 main .project-thumbnails {
   margin: 0 auto;
   padding-bottom: 4rem;
 }
 @media screen and (min-width: 62rem) {
-  /* line 87, ../sass/_main.scss */
+  /* line 88, ../sass/_main.scss */
   main .project-thumbnails {
     display: -webkit-flex;
     display: flex;
     padding-top: 0;
   }
 }
-/* line 96, ../sass/_main.scss */
+/* line 97, ../sass/_main.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
   background-color: #f9ffff;
   padding: 4rem 0 0;
 }
 @media screen and (min-width: 62rem) {
-  /* line 96, ../sass/_main.scss */
+  /* line 97, ../sass/_main.scss */
   main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
     display: -webkit-flex;
     display: flex;
     width: 33.33%;
   }
 }
-/* line 106, ../sass/_main.scss */
+/* line 107, ../sass/_main.scss */
 main .project-thumbnails figure {
   border: 1px solid #ccc;
   border-radius: 0.5rem;
@@ -345,28 +345,30 @@ main .project-thumbnails figure {
   padding: 1rem 1rem 2rem;
   width: 85%;
 }
-/* line 115, ../sass/_main.scss */
+/* line 116, ../sass/_main.scss */
 main .project-thumbnails figcaption {
+  font-family: 'Open Sans', sans-serif;
   margin: 1rem 0;
   text-align: center;
 }
-/* line 119, ../sass/_main.scss */
+/* line 121, ../sass/_main.scss */
 main .project-thumbnails figcaption > a {
   color: #7d97ac;
   display: block;
+  font-family: 'Courgette', cursive;
   margin: 0 auto;
   padding: 1rem;
   width: 90%;
 }
-/* line 126, ../sass/_main.scss */
+/* line 129, ../sass/_main.scss */
 main .project-thumbnails figcaption > a:hover {
   color: #58395a;
 }
-/* line 134, ../sass/_main.scss */
+/* line 137, ../sass/_main.scss */
 main .about-portfolio a {
   color: #7d97ac;
 }
-/* line 137, ../sass/_main.scss */
+/* line 140, ../sass/_main.scss */
 main .about-portfolio a:hover {
   color: #f9ffff;
 }
