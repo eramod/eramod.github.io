@@ -2,7 +2,8 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import url(https://fonts.googleapis.com/css?family=Exo:400,300,700,600|Open+Sans:400,300italic,700,600);
+@import url(http://fonts.googleapis.com/css?family=Exo:400,300,700,600|Open+Sans:400,300italic,700,600);
+@import url(http://fonts.googleapis.com/css?family=Courgette|Yellowtail|Sonsie+One);
 /* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -418,13 +419,13 @@ h3 {
 }
 /* line 14, ../sass/_header.scss */
 .hero-image .headline .title {
-  margin: 1.75rem 0 0 1.5rem;
+  margin: 0 0 0 1.5rem;
   /* 28px/16px */
 }
 /* line 19, ../sass/_header.scss */
 .hero-image nav {
   background: transparent;
-  border-bottom: 2px solid #999;
+  /*border-bottom: 2px solid #999;*/
   font-weight: 300;
   letter-spacing: 0.1rem;
 }
@@ -454,32 +455,33 @@ h3 {
 /* line 49, ../sass/_header.scss */
 .hero-image h1, .hero-image h2 {
   color: #f9ffff;
-  font-family: 'Exo', sans-serif;
+  /*font-family: 'Exo', sans-serif;*/
   font-weight: lighter;
+  font-family: 'Courgette', cursive;
 }
-/* line 55, ../sass/_header.scss */
+/* line 56, ../sass/_header.scss */
 .hero-image h1 {
   font-size: 1.25rem;
   /* 20px/16px */
   letter-spacing: 0.25rem;
   margin-bottom: 0.625rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 @media screen and (min-width: 62rem) {
-  /* line 55, ../sass/_header.scss */
+  /* line 56, ../sass/_header.scss */
   .hero-image h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
-/* line 65, ../sass/_header.scss */
+/* line 66, ../sass/_header.scss */
 .hero-image h2 {
   font-size: 0.85rem;
   letter-spacing: 0.19rem;
 }
 @media screen and (min-width: 62rem) {
-  /* line 65, ../sass/_header.scss */
+  /* line 66, ../sass/_header.scss */
   .hero-image h2 {
-    font-size: 1.4rem;
+    font-size: 1.58rem;
   }
 }
 
@@ -501,34 +503,40 @@ main h3 {
   }
 }
 /* line 15, ../sass/_main.scss */
+main header {
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+  width: 85%;
+}
+/* line 23, ../sass/_main.scss */
 main .portrait {
   float: right;
   height: 5rem;
   /* 80px/16px */
   width: 5rem;
   /* 80px/16px */
-  margin: -10px 27px 0 0;
+  margin: -2.2rem 3rem 0 0;
+  /* 54px/16px and 40px/16px */
 }
 @media screen and (min-width: 62rem) {
-  /* line 15, ../sass/_main.scss */
+  /* line 23, ../sass/_main.scss */
   main .portrait {
     height: 6.25rem;
     width: 6.25rem;
   }
 }
-/* line 26, ../sass/_main.scss */
+/* line 34, ../sass/_main.scss */
 main .portrait img {
   border-radius: 50%;
-  margin: 1.25rem auto 0 1.25rem;
-  /* 20px/16px */
 }
-/* line 32, ../sass/_main.scss */
-main h3, main p {
+/* line 39, ../sass/_main.scss */
+main p {
   padding: 1em 0;
   margin: 0 auto;
   width: 85%;
 }
-/* line 39, ../sass/_main.scss */
+/* line 46, ../sass/_main.scss */
 main .about, main .about-portfolio {
   background-color: #58395a;
   padding: 50px 0;
@@ -543,11 +551,11 @@ main .about, main .about-portfolio {
   				font-size: 1.75rem;
   			}*/
 }
-/* line 43, ../sass/_main.scss */
+/* line 50, ../sass/_main.scss */
 main .about h3, main .about p, main .about-portfolio h3, main .about-portfolio p {
   color: #f9ffff;
 }
-/* line 59, ../sass/_main.scss */
+/* line 66, ../sass/_main.scss */
 main .about p, main .about-portfolio p {
   color: #f9ffff;
   letter-spacing: 0.1rem;
@@ -555,47 +563,47 @@ main .about p, main .about-portfolio p {
   text-align: left;
 }
 @media screen and (min-width: 62rem) {
-  /* line 59, ../sass/_main.scss */
+  /* line 66, ../sass/_main.scss */
   main .about p, main .about-portfolio p {
     width: 50%;
   }
 }
-/* line 71, ../sass/_main.scss */
+/* line 78, ../sass/_main.scss */
 main #projects {
   padding: 3.125rem 0;
 }
-/* line 74, ../sass/_main.scss */
+/* line 81, ../sass/_main.scss */
 main #projects h3 {
   color: #58395a;
   padding-bottom: 0;
 }
-/* line 80, ../sass/_main.scss */
+/* line 87, ../sass/_main.scss */
 main .project-thumbnails {
   margin: 0 auto;
   padding-bottom: 4rem;
 }
 @media screen and (min-width: 62rem) {
-  /* line 80, ../sass/_main.scss */
+  /* line 87, ../sass/_main.scss */
   main .project-thumbnails {
     display: -webkit-flex;
     display: flex;
     padding-top: 0;
   }
 }
-/* line 89, ../sass/_main.scss */
+/* line 96, ../sass/_main.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
   background-color: #f9ffff;
   padding: 4rem 0 0;
 }
 @media screen and (min-width: 62rem) {
-  /* line 89, ../sass/_main.scss */
+  /* line 96, ../sass/_main.scss */
   main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
     display: -webkit-flex;
     display: flex;
     width: 33.33%;
   }
 }
-/* line 99, ../sass/_main.scss */
+/* line 106, ../sass/_main.scss */
 main .project-thumbnails figure {
   border: 1px solid #ccc;
   border-radius: 0.5rem;
@@ -604,12 +612,12 @@ main .project-thumbnails figure {
   padding: 1rem 1rem 2rem;
   width: 85%;
 }
-/* line 108, ../sass/_main.scss */
+/* line 115, ../sass/_main.scss */
 main .project-thumbnails figcaption {
   margin: 1rem 0;
   text-align: center;
 }
-/* line 112, ../sass/_main.scss */
+/* line 119, ../sass/_main.scss */
 main .project-thumbnails figcaption > a {
   color: #7d97ac;
   display: block;
@@ -617,15 +625,15 @@ main .project-thumbnails figcaption > a {
   padding: 1rem;
   width: 90%;
 }
-/* line 119, ../sass/_main.scss */
+/* line 126, ../sass/_main.scss */
 main .project-thumbnails figcaption > a:hover {
   color: #58395a;
 }
-/* line 127, ../sass/_main.scss */
+/* line 134, ../sass/_main.scss */
 main .about-portfolio a {
   color: #7d97ac;
 }
-/* line 130, ../sass/_main.scss */
+/* line 137, ../sass/_main.scss */
 main .about-portfolio a:hover {
   color: #f9ffff;
 }
