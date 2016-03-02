@@ -1,8 +1,9 @@
 
 $(function(){
 	$('#menu').slicknav({
+		closeOnClick: true,
+		duration: 400,
 		label: '',
-		duration: 300,
 		prependTo: '.hero-image'
 	});
 });
