@@ -2,6 +2,7 @@
 $(function(){
 	$('#menu').slicknav({
 		label: '',
-		duration: 300
+		duration: 300,
+		prependTo: '.hero-image'
 	});
 });

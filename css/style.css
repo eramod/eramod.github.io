@@ -151,7 +151,7 @@ h3 {
 }
 /* line 14, ../sass/_header.scss */
 .hero-image .headline .title {
-  margin: 0 0 0 1.5rem;
+  margin: 1rem 0 0 1.5rem;
   /* 28px/16px */
 }
 /* line 19, ../sass/_header.scss */
@@ -221,19 +221,46 @@ h3 {
 /* Hamburger Menu */
 /* line 79, ../sass/_header.scss */
 .slicknav_menu {
+  background: transparent;
+  display: block;
+  float: right;
+  width: 30%;
+}
+
+/* line 87, ../sass/_header.scss */
+.slicknav_btn {
+  background-color: transparent;
+}
+
+/* line 91, ../sass/_header.scss */
+.slicknav_nav {
+  /* background-color: $secondary-color; */
+  float: right;
+  line-height: 1.4;
+  padding: .75rem 0;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+/* line 100, ../sass/_header.scss */
+.slicknav_nav a:focus {
+  background-color: #7d97ac;
+}
+
+/* line 105, ../sass/_header.scss */
+#menu {
   display: none;
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (min-width: 40em) {
   /* #menu is the original menu */
-  /* line 85, ../sass/_header.scss */
+  /* line 111, ../sass/_header.scss */
   .js #menu {
-    display: none;
+    display: block;
   }
 
-  /* line 89, ../sass/_header.scss */
+  /* line 115, ../sass/_header.scss */
   .js .slicknav_menu {
-    display: block;
+    display: none;
   }
 }
 /* line 1, ../sass/_main.scss */
