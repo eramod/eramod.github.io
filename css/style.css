@@ -187,28 +187,29 @@ h3 {
 /* line 49, ../sass/_header.scss */
 .hero-image h1, .hero-image h2 {
   color: #f9ffff;
-  /*font-family: 'Exo', sans-serif;*/
   font-weight: lighter;
-  font-family: 'Courgette', cursive;
 }
-/* line 56, ../sass/_header.scss */
+/* line 54, ../sass/_header.scss */
 .hero-image h1 {
+  font-family: 'Exo', sans-serif;
   font-size: 1.25rem;
   /* 20px/16px */
-  letter-spacing: 0.25rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
   margin-bottom: 0.625rem;
   /*text-transform: uppercase;*/
 }
 @media screen and (min-width: 62rem) {
-  /* line 56, ../sass/_header.scss */
+  /* line 54, ../sass/_header.scss */
   .hero-image h1 {
     font-size: 2.5rem;
   }
 }
 /* line 66, ../sass/_header.scss */
 .hero-image h2 {
+  font-family: 'Courgette', cursive;
   font-size: 0.85rem;
-  letter-spacing: 0.19rem;
+  letter-spacing: 0.35rem;
 }
 @media screen and (min-width: 62rem) {
   /* line 66, ../sass/_header.scss */
@@ -218,19 +219,19 @@ h3 {
 }
 
 /* Hamburger Menu */
-/* line 78, ../sass/_header.scss */
+/* line 79, ../sass/_header.scss */
 .slicknav_menu {
   display: none;
 }
 
 @media screen and (max-width: 40em) {
   /* #menu is the original menu */
-  /* line 84, ../sass/_header.scss */
+  /* line 85, ../sass/_header.scss */
   .js #menu {
     display: none;
   }
 
-  /* line 88, ../sass/_header.scss */
+  /* line 89, ../sass/_header.scss */
   .js .slicknav_menu {
     display: block;
   }
@@ -373,7 +374,7 @@ main .project-thumbnails figcaption {
 main .project-thumbnails figcaption > a {
   color: #7d97ac;
   display: block;
-  font-family: 'Courgette', cursive;
+  font-family: 'Exo', sans-serif;
   margin: 0 auto;
   padding: 1rem;
   width: 90%;
