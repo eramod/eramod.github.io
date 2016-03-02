@@ -399,10 +399,11 @@ main .project-thumbnails figure {
 /* line 116, ../sass/_main.scss */
 main .project-thumbnails figcaption {
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.25rem;
   margin: 1rem 0;
   text-align: center;
 }
-/* line 121, ../sass/_main.scss */
+/* line 122, ../sass/_main.scss */
 main .project-thumbnails figcaption > a {
   color: #7d97ac;
   display: block;
@@ -411,15 +412,15 @@ main .project-thumbnails figcaption > a {
   padding: 1rem;
   width: 90%;
 }
-/* line 129, ../sass/_main.scss */
+/* line 130, ../sass/_main.scss */
 main .project-thumbnails figcaption > a:hover {
   color: #58395a;
 }
-/* line 137, ../sass/_main.scss */
+/* line 138, ../sass/_main.scss */
 main .about-portfolio a {
   color: #7d97ac;
 }
-/* line 140, ../sass/_main.scss */
+/* line 141, ../sass/_main.scss */
 main .about-portfolio a:hover {
   color: #f9ffff;
 }
