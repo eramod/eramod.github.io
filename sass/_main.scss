@@ -1,23 +1,11 @@
 main {
 	width: 100%;
 
-	h3 {
-		font-family: 'Courgette', cursive;
-		font-size: 1.25rem;
-		letter-spacing: 0.2rem;
-		text-align: center;
-
-		@media screen and (min-width: $break-medium) {
-			font-size: 1.75rem;
-		}
-	}
-
 	header {
 		margin: 0 auto;
 		padding: 2rem 0;
 		text-align: center;
 		width: 85%;
-
 	}
 
 	.portrait {
@@ -30,19 +18,23 @@ main {
 		@media screen and (min-width: $break-medium) {
 			height: 6.25rem;
 			width: 6.25rem;
-		}
+		} 
 
 		img {
 			border-radius: 50%;
 		}
 	}
 
-	p {
-			padding: 1em 0;
-			margin: 0 auto;
-			width: 85%; 
-	}
+	h3 {
+		font-family: 'Courgette', cursive;
+		font-size: 1.25rem;
+		letter-spacing: 0.2rem;
+		text-align: center;
 
+			@media screen and (min-width: $break-medium) {
+				font-size: 1.75rem;
+			}
+		}
 
 	.about, .about-portfolio {
 		background-color: $secondary-color;
@@ -52,19 +44,10 @@ main {
 			color: $tertiary-color;
 		}
 
-		
-		/*h3 {
-			color: $tertiary-color;
-			font-size: 1.25rem;
-			letter-spacing: 0.2rem;
-			text-align: center;
-			text-transform: uppercase;
-
-			@media screen and (min-width: $break-medium) {
-				font-size: 1.75rem;
-			}*/
-
 		p {
+			padding: 1em 0;
+			margin: 0 auto;
+			width: 85%;
 			color: $tertiary-color;
 			letter-spacing: 0.1rem;
 			line-height: 1.5rem;
@@ -134,13 +117,11 @@ main {
 		}
 	}	
 
-	.about-portfolio {
-		a {
-			color: $primary-color;
+	.about-portfolio a {
+		color: $primary-color;
 
-			&:hover{
-				color: $tertiary-color;
-			} 
-		}
+		&:hover{
+			color: $tertiary-color;
+		} 
 	}
 }

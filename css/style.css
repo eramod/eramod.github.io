@@ -122,19 +122,6 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 30, ../sass/_base.scss */
-h3 {
-  font-weight: 300;
-  font-family: 'Exo', sans-serif;
-}
-
-/* Temporary Styles */
-/* .objective {
-	color: $secondary-color;
-	font-size: 2rem;
-	margin: 20vh auto 0;
-	width: 60%;
-} */
 /* line 3, ../sass/_header.scss */
 .hero-image {
   background-image: url(../img/dianne-in-desert.jpg);
@@ -153,11 +140,17 @@ h3 {
 .hero-image .headline .title {
   margin: 1rem 0 0 1rem;
 }
-/* line 19, ../sass/_header.scss */
+@media screen and (min-width: 62rem) {
+  /* line 14, ../sass/_header.scss */
+  .hero-image .headline .title {
+    margin: 1rem 0 0 1.5rem;
+  }
+}
+/* line 23, ../sass/_header.scss */
 .hero-image h1, .hero-image h2 {
   color: #f9ffff;
 }
-/* line 23, ../sass/_header.scss */
+/* line 27, ../sass/_header.scss */
 .hero-image h1 {
   font-family: 'Exo', sans-serif;
   font-size: 1.5rem;
@@ -168,13 +161,12 @@ h3 {
   /*text-transform: uppercase;*/
 }
 @media screen and (min-width: 62rem) {
-  /* line 23, ../sass/_header.scss */
+  /* line 27, ../sass/_header.scss */
   .hero-image h1 {
     font-size: 2.5rem;
-    font-weight: 700;
   }
 }
-/* line 36, ../sass/_header.scss */
+/* line 39, ../sass/_header.scss */
 .hero-image h2 {
   font-family: 'Courgette', cursive;
   font-size: 0.93rem;
@@ -182,14 +174,14 @@ h3 {
   letter-spacing: 0.35rem;
 }
 @media screen and (min-width: 62rem) {
-  /* line 36, ../sass/_header.scss */
+  /* line 39, ../sass/_header.scss */
   .hero-image h2 {
     font-size: 1.58rem;
   }
 }
 
 /* Hamburger Menu */
-/* line 50, ../sass/_header.scss */
+/* line 53, ../sass/_header.scss */
 .slicknav_menu {
   background: transparent;
   display: block;
@@ -197,18 +189,18 @@ h3 {
   width: 30%;
 }
 @media screen and (min-width: 30rem) {
-  /* line 50, ../sass/_header.scss */
+  /* line 53, ../sass/_header.scss */
   .slicknav_menu {
     display: none;
   }
 }
 
-/* line 61, ../sass/_header.scss */
+/* line 64, ../sass/_header.scss */
 .slicknav_btn {
   background-color: transparent;
 }
 
-/* line 65, ../sass/_header.scss */
+/* line 68, ../sass/_header.scss */
 .slicknav_nav {
   /* background-color: $secondary-color; */
   float: right;
@@ -218,52 +210,52 @@ h3 {
   margin-bottom: 1rem;
   text-align: right;
 }
-/* line 74, ../sass/_header.scss */
+/* line 77, ../sass/_header.scss */
 .slicknav_nav a {
   font-size: 1.2rem;
 }
-/* line 77, ../sass/_header.scss */
+/* line 80, ../sass/_header.scss */
 .slicknav_nav afocus {
   background-color: #7d97ac;
 }
 
 /* Tablet and Desktop Menu */
 @media screen and (max-width: 30rem) {
-  /* line 87, ../sass/_header.scss */
+  /* line 90, ../sass/_header.scss */
   #menu {
     display: none;
   }
 }
 @media screen and (min-width: 30rem) {
-  /* line 94, ../sass/_header.scss */
+  /* line 97, ../sass/_header.scss */
   .hero-image nav {
     background: transparent;
     /*border-bottom: 2px solid #999;*/
     font-weight: 300;
     letter-spacing: 0.1rem;
   }
-  /* line 100, ../sass/_header.scss */
+  /* line 103, ../sass/_header.scss */
   .hero-image nav ul {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  /* line 105, ../sass/_header.scss */
+  /* line 108, ../sass/_header.scss */
   .hero-image nav ul :first-child {
     margin-left: auto;
   }
-  /* line 109, ../sass/_header.scss */
+  /* line 112, ../sass/_header.scss */
   .hero-image nav ul li {
     padding: 0.75rem;
     /* 12px/16px */
   }
-  /* line 112, ../sass/_header.scss */
+  /* line 115, ../sass/_header.scss */
   .hero-image nav ul li a {
     color: #f9ffff;
     text-decoration: none;
   }
-  /* line 116, ../sass/_header.scss */
+  /* line 119, ../sass/_header.scss */
   .hero-image nav ul li a:hover, .hero-image nav ul li a:active {
     color: #58395a;
   }
@@ -273,26 +265,13 @@ main {
   width: 100%;
 }
 /* line 4, ../sass/_main.scss */
-main h3 {
-  font-family: 'Courgette', cursive;
-  font-size: 1.25rem;
-  letter-spacing: 0.2rem;
-  text-align: center;
-}
-@media screen and (min-width: 62rem) {
-  /* line 4, ../sass/_main.scss */
-  main h3 {
-    font-size: 1.75rem;
-  }
-}
-/* line 15, ../sass/_main.scss */
 main header {
   margin: 0 auto;
   padding: 2rem 0;
   text-align: center;
   width: 85%;
 }
-/* line 23, ../sass/_main.scss */
+/* line 11, ../sass/_main.scss */
 main .portrait {
   display: none;
   float: right;
@@ -304,90 +283,90 @@ main .portrait {
   /* 54px/16px and 40px/16px */
 }
 @media screen and (min-width: 62rem) {
-  /* line 23, ../sass/_main.scss */
+  /* line 11, ../sass/_main.scss */
   main .portrait {
     height: 6.25rem;
     width: 6.25rem;
   }
 }
-/* line 35, ../sass/_main.scss */
+/* line 23, ../sass/_main.scss */
 main .portrait img {
   border-radius: 50%;
 }
-/* line 40, ../sass/_main.scss */
-main p {
-  padding: 1em 0;
-  margin: 0 auto;
-  width: 85%;
+/* line 28, ../sass/_main.scss */
+main h3 {
+  font-family: 'Courgette', cursive;
+  font-size: 1.25rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
 }
-/* line 47, ../sass/_main.scss */
+@media screen and (min-width: 62rem) {
+  /* line 28, ../sass/_main.scss */
+  main h3 {
+    font-size: 1.75rem;
+  }
+}
+/* line 39, ../sass/_main.scss */
 main .about, main .about-portfolio {
   background-color: #58395a;
   padding: 50px 0;
-  		/*h3 {
-  			color: $tertiary-color;
-  			font-size: 1.25rem;
-  			letter-spacing: 0.2rem;
-  			text-align: center;
-  			text-transform: uppercase;
-  
-  			@media screen and (min-width: $break-medium) {
-  				font-size: 1.75rem;
-  			}*/
 }
-/* line 51, ../sass/_main.scss */
+/* line 43, ../sass/_main.scss */
 main .about h3, main .about p, main .about-portfolio h3, main .about-portfolio p {
   color: #f9ffff;
 }
-/* line 67, ../sass/_main.scss */
+/* line 47, ../sass/_main.scss */
 main .about p, main .about-portfolio p {
+  padding: 1em 0;
+  margin: 0 auto;
+  width: 85%;
   color: #f9ffff;
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
   text-align: left;
 }
 @media screen and (min-width: 62rem) {
-  /* line 67, ../sass/_main.scss */
+  /* line 47, ../sass/_main.scss */
   main .about p, main .about-portfolio p {
     width: 50%;
   }
 }
-/* line 79, ../sass/_main.scss */
+/* line 62, ../sass/_main.scss */
 main #projects {
   padding: 3.125rem 0;
 }
-/* line 82, ../sass/_main.scss */
+/* line 65, ../sass/_main.scss */
 main #projects h3 {
   color: #58395a;
   padding-bottom: 0;
 }
-/* line 88, ../sass/_main.scss */
+/* line 71, ../sass/_main.scss */
 main .project-thumbnails {
   margin: 0 auto;
   padding-bottom: 4rem;
 }
 @media screen and (min-width: 62rem) {
-  /* line 88, ../sass/_main.scss */
+  /* line 71, ../sass/_main.scss */
   main .project-thumbnails {
     display: -webkit-flex;
     display: flex;
     padding-top: 0;
   }
 }
-/* line 97, ../sass/_main.scss */
+/* line 80, ../sass/_main.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
   background-color: #f9ffff;
   padding: 4rem 0 0;
 }
 @media screen and (min-width: 62rem) {
-  /* line 97, ../sass/_main.scss */
+  /* line 80, ../sass/_main.scss */
   main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
     display: -webkit-flex;
     display: flex;
     width: 33.33%;
   }
 }
-/* line 107, ../sass/_main.scss */
+/* line 90, ../sass/_main.scss */
 main .project-thumbnails figure {
   border: 1px solid #ccc;
   border-radius: 0.5rem;
@@ -396,14 +375,14 @@ main .project-thumbnails figure {
   padding: 1rem 1rem 2rem;
   width: 85%;
 }
-/* line 116, ../sass/_main.scss */
+/* line 99, ../sass/_main.scss */
 main .project-thumbnails figcaption {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.25rem;
   margin: 1rem 0;
   text-align: center;
 }
-/* line 122, ../sass/_main.scss */
+/* line 105, ../sass/_main.scss */
 main .project-thumbnails figcaption > a {
   color: #7d97ac;
   display: block;
@@ -412,15 +391,15 @@ main .project-thumbnails figcaption > a {
   padding: 1rem;
   width: 90%;
 }
-/* line 130, ../sass/_main.scss */
+/* line 113, ../sass/_main.scss */
 main .project-thumbnails figcaption > a:hover {
   color: #58395a;
 }
-/* line 138, ../sass/_main.scss */
+/* line 120, ../sass/_main.scss */
 main .about-portfolio a {
   color: #7d97ac;
 }
-/* line 141, ../sass/_main.scss */
+/* line 123, ../sass/_main.scss */
 main .about-portfolio a:hover {
   color: #f9ffff;
 }
@@ -431,18 +410,25 @@ footer {
   padding: 2rem;
 }
 /* line 5, ../sass/_footer.scss */
+footer .to-top {
+  color: #f9ffff;
+  float: right;
+  font-family: 'Exo', sans-serif;
+  text-decoration: none;
+}
+/* line 12, ../sass/_footer.scss */
 footer .social, footer p {
   display: block;
   margin: 0 auto;
   text-align: center;
   width: 90%;
 }
-/* line 12, ../sass/_footer.scss */
+/* line 19, ../sass/_footer.scss */
 footer p {
   color: #f9ffff;
   font-size: 0.9rem;
 }
-/* line 17, ../sass/_footer.scss */
+/* line 24, ../sass/_footer.scss */
 footer li {
   display: inline-block;
   margin: 0 0.5rem;
