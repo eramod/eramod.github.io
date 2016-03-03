@@ -355,7 +355,7 @@ main .project-thumbnails {
 }
 /* line 80, ../sass/_main.scss */
 main .project-thumbnails .project-1, main .project-thumbnails .project-2, main .project-thumbnails .project-3 {
-  background-color: #f9ffff;
+  /*background-color: $tertiary-color;*/
   padding: 4rem 0 0;
 }
 @media screen and (min-width: 62rem) {
