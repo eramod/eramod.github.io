@@ -138,7 +138,7 @@ p {
 }
 /* line 14, ../sass/_header.scss */
 .hero-image .headline .title {
-  margin: 1rem 0 0 1rem;
+  margin-left: 1rem;
 }
 @media screen and (min-width: 62rem) {
   /* line 14, ../sass/_header.scss */
