@@ -138,12 +138,12 @@ p {
 }
 /* line 14, ../sass/_header.scss */
 .hero-image .headline .title {
-  margin-left: 1rem;
+  margin: 1rem 0 0 1rem;
 }
 @media screen and (min-width: 62rem) {
   /* line 14, ../sass/_header.scss */
   .hero-image .headline .title {
-    margin: 1rem 0 0 1.5rem;
+    margin: 0 0 0 1.5rem;
   }
 }
 /* line 23, ../sass/_header.scss */
@@ -263,13 +263,12 @@ p {
 /* line 1, ../sass/_main.scss */
 main {
   width: 100%;
-}
-/* line 4, ../sass/_main.scss */
-main header {
-  margin: 0 auto;
-  padding: 2rem 0;
-  text-align: center;
-  width: 85%;
+  /*header {
+  	margin: 0 auto;
+  	padding: 2rem 0;
+  	text-align: center;
+  	width: 85%;
+  }*/
 }
 /* line 11, ../sass/_main.scss */
 main .portrait {
