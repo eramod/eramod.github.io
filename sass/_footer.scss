@@ -6,6 +6,8 @@ footer {
 		color: $tertiary-color;
 		float: right;
 		font-family: 'Exo', sans-serif;
+		margin: -1.5em -1.5rem 0 0;
+		padding: 0.5rem;
 		text-decoration: none;
 	}
 
@@ -13,9 +15,13 @@ footer {
 		display: block;
 		margin: 0 auto;
 		text-align: center;
-		width: 90%;
+		width: 100%;
 	}
 
+	.social {
+		margin-top: 1rem;
+	}
+	
 	p {
 		color: $tertiary-color;
 		font-size: 0.9rem;

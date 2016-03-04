@@ -414,21 +414,27 @@ footer .to-top {
   color: #f9ffff;
   float: right;
   font-family: 'Exo', sans-serif;
+  margin: -1.5em -1.5rem 0 0;
+  padding: 0.5rem;
   text-decoration: none;
 }
-/* line 12, ../sass/_footer.scss */
+/* line 14, ../sass/_footer.scss */
 footer .social, footer p {
   display: block;
   margin: 0 auto;
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
-/* line 19, ../sass/_footer.scss */
+/* line 21, ../sass/_footer.scss */
+footer .social {
+  margin-top: 1rem;
+}
+/* line 25, ../sass/_footer.scss */
 footer p {
   color: #f9ffff;
   font-size: 0.9rem;
 }
-/* line 24, ../sass/_footer.scss */
+/* line 30, ../sass/_footer.scss */
 footer li {
   display: inline-block;
   margin: 0 0.5rem;
